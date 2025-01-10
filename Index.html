@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Ever Github Repo</title>
+    <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="Styles/Nav.css">
 </head>
 <body>
-    
+    <main>
+        <h1>HTML Table</h1>
+    <table>
+        <caption>My Family Info</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rabbi</td>
+                <td>Child 1</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rafi</td>
+                <td>Child 2</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jesmin</td>
+                <td>Mom</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kayum</td>
+                <td>Dad</td>
+                <td>$1000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Member: 4 Person</td>
+            </tr>
+        </tfoot>
+    </table>
+    <ul>
+        <li>Table: table</li>
+        <li>Table Head: thead</li>
+        <li>Table Body: tbody</li>
+        <li>Table Footer: tfoot</li>
+        <li>Table Row: tr</li>
+        <li>Table Data: td</li>
+        <li>Table Header Cell: th</li>
+        <li>Caption</li>
+    </ul>
+    </main>
 </body>
 </html>
